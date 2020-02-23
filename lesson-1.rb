@@ -1,5 +1,9 @@
 require "selenium-webdriver"
 
+# DRIVER URL
+# Firefox : https://github.com/mozilla/geckodriver/releases/tag/v0.26.0
+# Chrome  : https://chromedriver.storage.googleapis.com/index.html?path=80.0.3987.106/
+
 # Selenium::WebDriver::Chrome::Service.driver_path="/home/rajesh/Downloads/browser-drivers/chromedriver_linux64/chromedriver"
 Selenium::WebDriver::Firefox::Service.driver_path="/home/rajesh/Downloads/browser-drivers/geckodriver-v0.26.0-linux64/geckodriver"
 
